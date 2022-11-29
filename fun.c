@@ -36,7 +36,6 @@ void print_user(struct user_t *user) {
 
 void scan_user(struct user_t *user, char *name, double time, double lat, double lon, double alt) {
     strcpy(user->name, name);
-    printf("asfd");
     user->time = time;
     user->lat = lat;
     user->lon = lon;
